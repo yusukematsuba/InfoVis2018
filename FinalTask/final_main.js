@@ -54,7 +54,7 @@ function main()
     
     var sphere = new THREE.Mesh(
         new THREE.SphereGeometry(5), 
-　　　　new THREE.MeshLambertMaterial( { color: 0xbdb76b } )
+        new THREE.MeshLambertMaterial( { color: 0xbdb76b } )
     );
     sphere.position.x += volume.resolution.x - 30;
     sphere.position.y += volume.resolution.y/2 + 30;
